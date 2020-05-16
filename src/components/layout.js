@@ -26,7 +26,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
+      <div 
+        className = 'flex flex-wrap'
         style={{
           margin: `0 auto`,
           maxWidth: 960,
@@ -34,10 +35,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer className="content-center w-full max-w-xs">
+        <p className="text-center text-gray-500 text-xs">
+          &copy;2020 J!Quant TapSkill. All rights reserved.
+        </p>
         </footer>
       </div>
     </>
