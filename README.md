@@ -1,19 +1,11 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's default starter
+  TAPSKILL by J!Quant
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Aplicação de ensino rápido para dispositívos móveis 
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
-## 🚀 Quick start
-
+## 🚀 POWERED BY J!QUANT
+<!-- 
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
@@ -96,4 +88,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+AUTO-GENERATED-CONTENT:END -->
