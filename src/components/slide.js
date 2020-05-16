@@ -7,12 +7,12 @@ class SlideComponent extends React.PureComponent{
     constructor(props){
         super(props);
 
-        src = this.props.src || 'https://slides.com/zericardo/teste/embed';
+        src = this.props.src || 'https://tapskill.slides.com/jozza/quantile_regression/fullscreen';
 
         
         this.state = {
             width: 0,
-            height: 0 + 39
+            height: 0
         };
     }
 
@@ -25,7 +25,7 @@ class SlideComponent extends React.PureComponent{
         
         this.setState({
             width: window.screen.width,
-            height: window.screen.height + 39
+            height: window.screen.height
         });
         
     }
