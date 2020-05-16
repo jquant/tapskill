@@ -11,13 +11,13 @@ class SlideComponent extends React.PureComponent{
 
         
         this.state = {
-            width: window.screen.width,
-            height: window.screen.height + 39
+            width: 0,
+            height: 0 + 39
         };
     }
 
     componentDidMount() {
-        window.addEventListener("resize", this.resize.bind(this));
+        window.addEventListener("resize", (this.resize.bind(this)));
         this.resize();
     }
     
