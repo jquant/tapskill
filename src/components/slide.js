@@ -7,7 +7,7 @@ class SlideComponent extends React.PureComponent{
     constructor(props){
         super(props);
 
-        src = this.props.src || 'https://tapskill.slides.com/jozza/quantile_regression/fullscreen';
+        src = this.props.src || 'https://tapskill.slides.com/jozza/novo-deck/embed/';
 
         
         this.state = {
