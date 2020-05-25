@@ -1,0 +1,9 @@
+# Production context:
+# All deploys from the main repository branch
+# will inherit these settings.
+[context.production]
+  command = "make production"
+  [context.production.environment]
+    GATSBY_AUTH0_DOMAIN=jqauth.auth0.com
+    GATSBY_AUTH0_CLIENTID=d4WbiczsRTgtxEWgRh5W1E1CqyNFoSDk
+    GATSBY_AUTH0_CALLBACK=https://tapskill.ai/callback
