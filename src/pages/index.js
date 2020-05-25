@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
+import Image from "../components/image"
 // import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -19,7 +19,8 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="w-full xl:w-3/5 py-6 overflow-y-hidden">
-            <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="images/devices.svg" />
+            <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="/images/devices.svg" />
+            <Image src="/images/devices.svg" />
           </div>
           
         </div>
