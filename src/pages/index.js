@@ -7,34 +7,24 @@ import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-  <div className="flex justify-center items-center">
-    <form className="max-w-xs bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-      <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-        Usuário
-        </label>
-        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username"/>
+    <div className="h-screen pb-14 bg-right bg-cover" style={{backgroundImage: 'url("bg.svg")'}}>
+        <div className="container pt-24 md:pt-32 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+          <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
+            <h1 className="my-4 text-3xl md:text-5xl text-purple-800 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">Main Hero Message to sell your app</h1>
+            <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Sub-hero message, not too long and not too short. Make it just right!</p>
+            <p className="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">Download our app:</p>
+            <div className="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
+              <img src="App Store.svg" className="h-12 pr-4 bounce-top-icons" />
+              <img src="Play Store.svg" className="h-12 bounce-top-icons" />
+            </div>
+          </div>
+          <div className="w-full xl:w-3/5 py-6 overflow-y-hidden">
+            <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="devices.svg" />
+          </div>
+          
+        </div>
       </div>
-      <div className="mb-6">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-        Senha
-        </label>
-        <input className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************"/>
-        <p className="text-red-500 text-xs italic">Please choose a password.</p>
-      </div>
-      <div className="flex items-center justify-between">
-        <Link to="/slide">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-          Entrar
-          </button>
-        </Link>
-        <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
-        Esqueceu a senha?
-        </a>
-      </div>
-    </form>
-  </div>
-  </Layout>
+  </Layout >
 )
 
 export default IndexPage
