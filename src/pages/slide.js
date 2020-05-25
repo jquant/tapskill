@@ -7,7 +7,7 @@ import SlideComponent from "../components/slide"
 
 const slidePage = () => {
     if (!isAuthenticated()) {
-        login({returnTo:window.location.href})
+        login()
         return <p>Redirecting to login...</p>
     }
 
