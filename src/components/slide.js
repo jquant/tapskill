@@ -7,7 +7,7 @@ class SlideComponent extends React.PureComponent{
     constructor(props){
         super(props);
 
-        src = this.props.src || 'https://tapskill.slides.com/jozza/novo-deck/embed/';
+        src = this.props.src || 'https://tapskill.slides.com/jozza/quantile_regression/fullscreen/';
 
         
         this.state = {
@@ -38,7 +38,8 @@ class SlideComponent extends React.PureComponent{
             src={src} 
             width={this.state.width} height={this.state.height} 
             scrolling="no" 
-            allowFullScreen></iframe>
+            allowFullScreen>
+            </iframe>
 
             </div>
         )

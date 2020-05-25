@@ -27,18 +27,13 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div 
-        className = 'flex flex-wrap'
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+        className="flex-wrap flex w-full"
       >
-        <main>{children}</main>
-        <footer className="content-center w-full max-w-xs">
-        <p className="text-center text-gray-500 text-xs">
-          &copy;2020 J!Quant TapSkill. All rights reserved.
-        </p>
+        <main className="justify-center w-full ">{children}</main>
+        <footer className="justify-center w-full">
+          <p className="text-center text-gray-500 text-xs">
+            &copy;2020 J!Quant TapSkill. All rights reserved.
+          </p>
         </footer>
       </div>
     </>
