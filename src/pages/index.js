@@ -19,7 +19,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="w-full xl:w-3/5 py-6 overflow-y-hidden">
-            <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="devices.svg" />
+            <img className="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="images/devices.svg" />
           </div>
           
         </div>
